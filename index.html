@@ -58,11 +58,18 @@
 			cursor: pointer;
 		}
 		#model-container {
-			width: 100px;
- 			height: 100px;
-			float: right;
+			position: absolute;
+			top: 50%;
+			right: 150px;
+			transform: translateY(-50%);
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
 		}
 	</style>
+	<link rel="icon" href="logo_noir.png">
 </head>
 <body>
 	<img id="logo" src="logo.png" alt="Logo du site">
